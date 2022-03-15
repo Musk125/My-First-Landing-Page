@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.full{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #806750;
+}
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 7%;
+    left: 7%;
+    width: 85%;
+    height: 85%;
+   background-color: #a48165;
+ 
+  
+}
+.screen1{ 
+    position: relative;
+  width: 35%;
+  height: 100%;
+  background-color: #1a201e;
+  border-top-right-radius: 40%;
+  border-bottom-right-radius: 40%;
+  }
+  #redline{
+      position: absolute;
+      top: 37%;
+      height: 1%;
+      width: 30%;
+      background-color:#f26d45 ;
+      
+  }
+  .navtop{ 
+      position: absolute;
+      top: 5%;
+     left: 5%;
+   height: 4%;
+      width: 50%;
+      color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+  }
+  #mid2{ 
+      position: absolute;
+      top: 30%;
+      left: 10%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  }
+  #mid2 h1{ 
+      color: wheat;
+     }
+ 
+  #special h2{
+      color: white;
+      font-size: 70px;
+  }
+  .navbtm{ position: absolute;
+      bottom: 5%;
+      left: 10%;
+      color: white;
+  }
+  .navbtm i{
+      margin-right: 20px;
+      size: 100px;
+  }
+
+ 
+.screen2{
+    position: relative;
+    width: 65%;
+    height: 100%;
+background-color: #1a201e;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+  
+  }
+  .navleft{  
+      position: absolute;
+      right: 40%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 27%;
+      height: 10%;
+      color: white;
+  }
+  .navright{
+    position: absolute;
+    right: 7%;  
+    top: 4%;
+  }
+  
+  .navright i{
+      margin-right: 20px;
+      color: white;
+  }
+  .between{  
+     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+      position: absolute; 
+      top: 20%;
+      left: 35%;
+      height: 60%;
+      width: 47%;
+      color: white;
+  }
+  .between h1{
+      font-size: 50px;
+      font-weight: 100;
+     
+  }
+  span{
+    color: #f26d45;
+      font-size: 50px;
+      font-weight: 900;
+  }
+  button{
+      width: 45%;
+      height: 13%;
+  }
+  .leftpart{ 
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      top: 48%;
+      left: 30%;
+      height: 7%;
+      width: 40%;
+ transform: translate(-50%,-50%)rotate(-90deg);
+  }
+  .leftpart #line{ 
+      width: 35%;
+      height: 10%;
+      background-color: #f26d45;
+  }
+  .leftpart h1{ 
+      color: white;
+      font-size: 20px;
+  }
+  .rightpart{ 
+      position: absolute;
+      top:20%;
+      right: -36%;
+      height: 10%;
+      width: 80%;
+      transform: rotate(-90deg);
+  }
+  .screen2 .rightpart h1{
+      color: white;
+      font-size: 35px;
+      font-weight: 100px;
+
+  }
+  .round1{ 
+      position: absolute;
+      top: 24%;
+      left: 21%;
+      height: 60%;
+      width: 30%;
+      background-color: #ceae9b;
+      border-radius: 50%;
+  }
+  .round2{
+    position: absolute;
+    top: 29%;
+    left: 24%;   
+    height: 48%;
+    width: 25%;
+  background-color: #f26d45;
+    border-radius: 50%; 
+  }
+  .round2 img{
+position: absolute;
+top: -45%;
+left: -22%;
+height: 500px;
+width: 900px;
+  }
+  
